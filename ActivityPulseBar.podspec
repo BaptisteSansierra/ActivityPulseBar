@@ -21,7 +21,7 @@ ActivityPulseBar is a sleek and minimal vertical loading indicator, designed to 
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   spec.author             = { "Baptiste Sansierra" => "baptiste.sansierra@gmail.com" }
-  spec.ios.deployment_target = '9.0'
+  spec.ios.deployment_target = '12.0'
   spec.swift_version = '5.0'
   spec.source           = { :git => 'https://github.com/BaptisteSansierra/ActivityPulseBar.git', :tag => spec.version.to_s }
   spec.source_files = 'ActivityPulseBar/*'
