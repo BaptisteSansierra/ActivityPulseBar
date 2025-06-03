@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ActivityPulseBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CPo-bp-YXE" userLabel="navBarBgView">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="104"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lwG-me-XGa" userLabel="navBarView">
+                                <rect key="frame" x="0.0" y="59" width="393" height="45"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ActivityPulseBar Demo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gb7-Bf-Hjz" userLabel="titleLb">
+                                        <rect key="frame" x="110.00000000000001" y="12" width="173.33333333333337" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LCS-5d-RSv" userLabel="navSeparatorView">
+                                        <rect key="frame" x="0.0" y="44" width="393" height="1"/>
+                                        <color key="backgroundColor" red="0.92549019610000005" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="NrW-dc-7Zn"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="7Qe-n6-zsN"/>
+                                    <constraint firstItem="gb7-Bf-Hjz" firstAttribute="centerX" secondItem="lwG-me-XGa" secondAttribute="centerX" id="9IY-yw-aPI"/>
+                                    <constraint firstAttribute="trailing" secondItem="LCS-5d-RSv" secondAttribute="trailing" id="L2d-xV-Dxb"/>
+                                    <constraint firstItem="LCS-5d-RSv" firstAttribute="leading" secondItem="lwG-me-XGa" secondAttribute="leading" id="XIt-mh-Bjh"/>
+                                    <constraint firstAttribute="bottom" secondItem="LCS-5d-RSv" secondAttribute="bottom" id="jau-6P-IGl"/>
+                                    <constraint firstItem="gb7-Bf-Hjz" firstAttribute="centerY" secondItem="lwG-me-XGa" secondAttribute="centerY" id="tHZ-N2-VXP"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s3g-gk-SU1" userLabel="startBt">
+                                <rect key="frame" x="147.66666666666666" y="421" width="98" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Start task"/>
+                                <connections>
+                                    <action selector="didPressStartBt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p9U-Lq-NbV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="CPo-bp-YXE" firstAttribute="bottom" secondItem="lwG-me-XGa" secondAttribute="bottom" id="Gac-Se-lMy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lwG-me-XGa" secondAttribute="trailing" id="Inu-ko-muZ"/>
+                            <constraint firstItem="CPo-bp-YXE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="JD3-iJ-xar"/>
+                            <constraint firstItem="CPo-bp-YXE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Mv0-jj-YMr"/>
+                            <constraint firstItem="lwG-me-XGa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="gyO-4m-bVo"/>
+                            <constraint firstItem="s3g-gk-SU1" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="kXs-fb-1hO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="CPo-bp-YXE" secondAttribute="leading" id="nVF-U9-FuK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="lwG-me-XGa" secondAttribute="leading" id="u8v-MQ-t2b"/>
+                            <constraint firstItem="s3g-gk-SU1" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="zMx-K2-qYD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="navBarBgView" destination="CPo-bp-YXE" id="aCo-Jj-PSl"/>
+                        <outlet property="navBarView" destination="lwG-me-XGa" id="M2x-cF-7eR"/>
+                        <outlet property="startBt" destination="s3g-gk-SU1" id="kaD-UQ-pzM"/>
+                        <outlet property="titleLb" destination="gb7-Bf-Hjz" id="51P-z7-j6A"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="45" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
