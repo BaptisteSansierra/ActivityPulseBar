@@ -1,5 +1,12 @@
 # ActivityPulseBar
 
+![Swift Package Manager compatible](https://img.shields.io/badge/Swift_Package_Manager-Compatible-4BC51D.svg?style=flat)
+![Cocoapods](https://img.shields.io/badge/cocoapods-Compatible-4BC51D.svg?style=flat)
+![Carthage](https://img.shields.io/badge/Carthage-Compatible-4BC51D.svg?style=flat)
+![License](https://img.shields.io/badge/License-MIT-black.svg?style=flat)
+![Platform](https://img.shields.io/badge/License-iOS-black.svg?style=flat)
+
+
 ActivityPulseBar is a lightweight and customizable indeterminate loading indicator for iOS, built with Swift.
 It mimics the smooth animation style of Android’s indeterminate progress bars, featuring a pulse-like motion of a dynamic bar moving across a track.
 
