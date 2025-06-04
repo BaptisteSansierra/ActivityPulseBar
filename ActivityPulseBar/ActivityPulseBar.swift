@@ -9,8 +9,9 @@
 import UIKit
 
 /*
-  Draw a bar moving within the view from left to right
-  Bar width is animated from barWMin to barWMax
+  Draw a pulse-like motion of a dynamic bar moving across a track.
+  The indicator animates continuously with varying speed and size
+  Bar width vary from barWMin to barWMax
   Bar speed up until speMax, then speed down until speMin
   The bar is drawn from x1=-margin to x2=frameWidth + margin
  */

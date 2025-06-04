@@ -8,7 +8,7 @@
 
 import UIKit
 
-public extension UIColor {
+extension UIColor {
     
     @objc convenience init(rgba: String) {
         var red: CGFloat = 0.0

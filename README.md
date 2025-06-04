@@ -26,7 +26,16 @@ Zero dependencies
 You can simply copy the ActivityPulseBar.swift file into your project.
 Or add it via Swift Package Manager (SPM) if you choose to publish it later.
 
-TODO...
+Using Cocoapods
+```ruby
+pod 'ActivityPulseBar'
+```
+
+Using Carthage
+```ruby
+git "git@github.com:BaptisteSansierra/ActivityPulseBar.git"
+```
+
 
 ## Usage
 
