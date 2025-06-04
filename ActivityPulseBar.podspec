@@ -11,10 +11,11 @@ Pod::Spec.new do |spec|
 
   spec.name         = "ActivityPulseBar"
   spec.version      = "1.0"
-  spec.summary      = "Vertical loading indicator.."
+  spec.summary      = "ActivityPulseBar is a smooth, pulse-style loading indicator for iOS, inspired by Android’s progress bars and built with Swift."
 
   spec.description  = <<-DESC
-ActivityPulseBar is a sleek and minimal vertical loading indicator, designed to visually represent background activity or loading states...
+ActivityPulseBar is a lightweight and customizable indeterminate loading indicator for iOS, built with Swift.
+It mimics the smooth animation style of Android’s indeterminate progress bars, featuring a pulse-like motion of a dynamic bar moving across a track.
                    DESC
 
   #spec.homepage     = "https://github.com/BaptisteSansierra/ActivityPulseBar.git"

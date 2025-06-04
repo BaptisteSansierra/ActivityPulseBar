@@ -1,0 +1,9 @@
+use_frameworks!
+platform :ios, '18.0'
+
+target 'ActivityPulseBarDemo' do
+
+  pod 'ActivityPulseBar'
+  pod 'TactileSlider'
+
+end

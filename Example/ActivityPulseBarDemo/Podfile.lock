@@ -1,0 +1,20 @@
+PODS:
+  - ActivityPulseBar (1.0)
+  - TactileSlider (3.0.0)
+
+DEPENDENCIES:
+  - ActivityPulseBar
+  - TactileSlider
+
+SPEC REPOS:
+  trunk:
+    - ActivityPulseBar
+    - TactileSlider
+
+SPEC CHECKSUMS:
+  ActivityPulseBar: da3fd6881c3ca82243f20da09a687d98944a01cf
+  TactileSlider: 29d7ece49b13f921f1c8e0952ffba6c0b9c9d19d
+
+PODFILE CHECKSUM: 5092b914c55dc7df510e52fd8554d5640d2310a2
+
+COCOAPODS: 1.16.2

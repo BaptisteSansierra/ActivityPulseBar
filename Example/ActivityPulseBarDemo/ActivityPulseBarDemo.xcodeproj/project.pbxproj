@@ -7,130 +7,146 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DD85F4B2DEEFE4E00364AE1 /* ActivityPulseBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD85F4A2DEEFE4E00364AE1 /* ActivityPulseBar.swift */; };
-		4DD85F522DEF043C00364AE1 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD85F502DEF043C00364AE1 /* UIColor+Extension.swift */; };
-		4DD85F532DEF043C00364AE1 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD85F512DEF043C00364AE1 /* UIView+Extension.swift */; };
+		0601510C47C2951FDD934309 /* Pods_ActivityPulseBarDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6D364088E0DD29D160F242A /* Pods_ActivityPulseBarDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4DD85F222DEEFCF700364AE1 /* ActivityPulseBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityPulseBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DD85F4A2DEEFE4E00364AE1 /* ActivityPulseBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ActivityPulseBar.swift; path = ../ActivityPulseBar/ActivityPulseBar.swift; sourceTree = SOURCE_ROOT; };
-		4DD85F502DEF043C00364AE1 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "../ActivityPulseBar/UIColor+Extension.swift"; sourceTree = SOURCE_ROOT; };
-		4DD85F512DEF043C00364AE1 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "../ActivityPulseBar/UIView+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		4DD8603D2DF0578000364AE1 /* ActivityPulseBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityPulseBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92BE27F29E72E393619A790A /* Pods-ActivityPulseBarDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActivityPulseBarDemo.debug.xcconfig"; path = "Target Support Files/Pods-ActivityPulseBarDemo/Pods-ActivityPulseBarDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C26393CC86F5E64EB373882E /* Pods-ActivityPulseBarDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActivityPulseBarDemo.release.xcconfig"; path = "Target Support Files/Pods-ActivityPulseBarDemo/Pods-ActivityPulseBarDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F6D364088E0DD29D160F242A /* Pods_ActivityPulseBarDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ActivityPulseBarDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		4DD85F342DEEFCF900364AE1 /* Exceptions for "ActivityPulseBar" folder in "ActivityPulseBar" target */ = {
+		4DD8604F2DF0578200364AE1 /* Exceptions for "ActivityPulseBarDemo" folder in "ActivityPulseBarDemo" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 4DD85F212DEEFCF700364AE1 /* ActivityPulseBar */;
+			target = 4DD8603C2DF0578000364AE1 /* ActivityPulseBarDemo */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		4DD85F242DEEFCF700364AE1 /* ActivityPulseBar */ = {
+		4DD8603F2DF0578000364AE1 /* ActivityPulseBarDemo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				4DD85F342DEEFCF900364AE1 /* Exceptions for "ActivityPulseBar" folder in "ActivityPulseBar" target */,
+				4DD8604F2DF0578200364AE1 /* Exceptions for "ActivityPulseBarDemo" folder in "ActivityPulseBarDemo" target */,
 			);
-			path = ActivityPulseBar;
+			path = ActivityPulseBarDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4DD85F1F2DEEFCF700364AE1 /* Frameworks */ = {
+		4DD8603A2DF0578000364AE1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0601510C47C2951FDD934309 /* Pods_ActivityPulseBarDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4DD85F192DEEFCF700364AE1 = {
+		4DD860342DF0578000364AE1 = {
 			isa = PBXGroup;
 			children = (
-				4DD85F242DEEFCF700364AE1 /* ActivityPulseBar */,
-				4DD85F232DEEFCF700364AE1 /* Products */,
-				4DD85F4A2DEEFE4E00364AE1 /* ActivityPulseBar.swift */,
-				4DD85F502DEF043C00364AE1 /* UIColor+Extension.swift */,
-				4DD85F512DEF043C00364AE1 /* UIView+Extension.swift */,
+				4DD8603F2DF0578000364AE1 /* ActivityPulseBarDemo */,
+				4DD8603E2DF0578000364AE1 /* Products */,
+				60415E9E7A795805BE42B3FA /* Pods */,
+				6B0B395EB7030B20603C5723 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		4DD85F232DEEFCF700364AE1 /* Products */ = {
+		4DD8603E2DF0578000364AE1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4DD85F222DEEFCF700364AE1 /* ActivityPulseBar.app */,
+				4DD8603D2DF0578000364AE1 /* ActivityPulseBarDemo.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		60415E9E7A795805BE42B3FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92BE27F29E72E393619A790A /* Pods-ActivityPulseBarDemo.debug.xcconfig */,
+				C26393CC86F5E64EB373882E /* Pods-ActivityPulseBarDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6B0B395EB7030B20603C5723 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6D364088E0DD29D160F242A /* Pods_ActivityPulseBarDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4DD85F212DEEFCF700364AE1 /* ActivityPulseBar */ = {
+		4DD8603C2DF0578000364AE1 /* ActivityPulseBarDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4DD85F352DEEFCF900364AE1 /* Build configuration list for PBXNativeTarget "ActivityPulseBar" */;
+			buildConfigurationList = 4DD860502DF0578200364AE1 /* Build configuration list for PBXNativeTarget "ActivityPulseBarDemo" */;
 			buildPhases = (
-				4DD85F1E2DEEFCF700364AE1 /* Sources */,
-				4DD85F1F2DEEFCF700364AE1 /* Frameworks */,
-				4DD85F202DEEFCF700364AE1 /* Resources */,
+				E9547A19581FE2F57258BAC6 /* [CP] Check Pods Manifest.lock */,
+				4DD860392DF0578000364AE1 /* Sources */,
+				4DD8603A2DF0578000364AE1 /* Frameworks */,
+				4DD8603B2DF0578000364AE1 /* Resources */,
+				2AA61789512B6EEB69244E86 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				4DD85F242DEEFCF700364AE1 /* ActivityPulseBar */,
+				4DD8603F2DF0578000364AE1 /* ActivityPulseBarDemo */,
 			);
-			name = ActivityPulseBar;
-			packageProductDependencies = (
-			);
-			productName = ActivityPulseBar;
-			productReference = 4DD85F222DEEFCF700364AE1 /* ActivityPulseBar.app */;
+			name = ActivityPulseBarDemo;
+			productName = ActivityPulseBarDemo;
+			productReference = 4DD8603D2DF0578000364AE1 /* ActivityPulseBarDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4DD85F1A2DEEFCF700364AE1 /* Project object */ = {
+		4DD860352DF0578000364AE1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					4DD85F212DEEFCF700364AE1 = {
+					4DD8603C2DF0578000364AE1 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = 4DD85F1D2DEEFCF700364AE1 /* Build configuration list for PBXProject "ActivityPulseBar" */;
+			buildConfigurationList = 4DD860382DF0578000364AE1 /* Build configuration list for PBXProject "ActivityPulseBarDemo" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 4DD85F192DEEFCF700364AE1;
+			mainGroup = 4DD860342DF0578000364AE1;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 4DD85F232DEEFCF700364AE1 /* Products */;
+			productRefGroup = 4DD8603E2DF0578000364AE1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4DD85F212DEEFCF700364AE1 /* ActivityPulseBar */,
+				4DD8603C2DF0578000364AE1 /* ActivityPulseBarDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4DD85F202DEEFCF700364AE1 /* Resources */ = {
+		4DD8603B2DF0578000364AE1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -139,31 +155,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2AA61789512B6EEB69244E86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ActivityPulseBarDemo/Pods-ActivityPulseBarDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ActivityPulseBarDemo/Pods-ActivityPulseBarDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ActivityPulseBarDemo/Pods-ActivityPulseBarDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9547A19581FE2F57258BAC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ActivityPulseBarDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		4DD85F1E2DEEFCF700364AE1 /* Sources */ = {
+		4DD860392DF0578000364AE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DD85F4B2DEEFE4E00364AE1 /* ActivityPulseBar.swift in Sources */,
-				4DD85F522DEF043C00364AE1 /* UIColor+Extension.swift in Sources */,
-				4DD85F532DEF043C00364AE1 /* UIView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4DD85F362DEEFCF900364AE1 /* Debug */ = {
+		4DD860512DF0578200364AE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92BE27F29E72E393619A790A /* Pods-ActivityPulseBarDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ActivityPulseBar/Info.plist;
+				INFOPLIST_FILE = ActivityPulseBarDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -174,26 +228,24 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.batsansierra.ActivityPulseBar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.batsansierra.ActivityPulseBarDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		4DD85F372DEEFCF900364AE1 /* Release */ = {
+		4DD860522DF0578200364AE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C26393CC86F5E64EB373882E /* Pods-ActivityPulseBarDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ActivityPulseBar/Info.plist;
+				INFOPLIST_FILE = ActivityPulseBarDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -204,16 +256,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.batsansierra.ActivityPulseBar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.batsansierra.ActivityPulseBarDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		4DD85F382DEEFCF900364AE1 /* Debug */ = {
+		4DD860532DF0578200364AE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -250,7 +301,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -276,7 +327,7 @@
 			};
 			name = Debug;
 		};
-		4DD85F392DEEFCF900364AE1 /* Release */ = {
+		4DD860542DF0578200364AE1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -313,7 +364,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -335,25 +386,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4DD85F1D2DEEFCF700364AE1 /* Build configuration list for PBXProject "ActivityPulseBar" */ = {
+		4DD860382DF0578000364AE1 /* Build configuration list for PBXProject "ActivityPulseBarDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DD85F382DEEFCF900364AE1 /* Debug */,
-				4DD85F392DEEFCF900364AE1 /* Release */,
+				4DD860532DF0578200364AE1 /* Debug */,
+				4DD860542DF0578200364AE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4DD85F352DEEFCF900364AE1 /* Build configuration list for PBXNativeTarget "ActivityPulseBar" */ = {
+		4DD860502DF0578200364AE1 /* Build configuration list for PBXNativeTarget "ActivityPulseBarDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DD85F362DEEFCF900364AE1 /* Debug */,
-				4DD85F372DEEFCF900364AE1 /* Release */,
+				4DD860512DF0578200364AE1 /* Debug */,
+				4DD860522DF0578200364AE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4DD85F1A2DEEFCF700364AE1 /* Project object */;
+	rootObject = 4DD860352DF0578000364AE1 /* Project object */;
 }

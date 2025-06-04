@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  ActivityPulseBar
+//  ActivityPulseBarDemo
 //
-//  Created by bat on 3/6/25.
+//  Created by bat on 4/6/25.
 //
 
 import UIKit

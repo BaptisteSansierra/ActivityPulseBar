@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import ActivityPulseBar
 
 class ViewController: UIViewController {
 
