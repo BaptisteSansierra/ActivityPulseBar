@@ -12,7 +12,7 @@ It mimics the smooth animation style of Android’s indeterminate progress bars,
 
 Ideal for situations where the exact progress of a task is unknown — ActivityPulseBar provides users with a subtle visual cue that something is happening in the background.
 
-<img src="Screenshots/demo.gif" alt="Animation of ActivityPulseBar in the iOS simulator" width="363" />
+<img src="Screenshots/arckitdemo.gif" alt="ArcKit" width="363" />
 
 
 ## Features

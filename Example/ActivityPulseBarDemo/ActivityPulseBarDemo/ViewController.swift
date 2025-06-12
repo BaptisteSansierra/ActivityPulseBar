@@ -48,8 +48,8 @@ class ViewController: UIViewController {
     // MARK: - override
     override func viewDidLoad() {
         super.viewDidLoad()
-        navBarBgView.backgroundColor = UIColor.dynamicColor(light: .white, dark: .black)
-        titleLb.textColor = UIColor.dynamicColor(light: .black, dark: .white)
+        navBarBgView.backgroundColor = UIColor.systemBackground
+        titleLb.textColor =  UIColor.systemGray
         addActivityPulseBar()
     }
 

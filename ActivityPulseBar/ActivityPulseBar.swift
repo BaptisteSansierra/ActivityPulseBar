@@ -13,7 +13,7 @@ import UIKit
   The indicator animates continuously with varying speed and size
   Bar width vary from barWMin to barWMax
   Bar speed up until speMax, then speed down until speMin
-  The bar is drawn from x1=-margin to x2=frameWidth + margin
+  The bar is drawn from x1=-margin to x2=frame.width + margin
  */
 public class ActivityPulseBar: UIView {
 
@@ -70,24 +70,23 @@ public class ActivityPulseBar: UIView {
 
     // MARK: - override
     override public func draw(_ rect: CGRect) {
-        let margin = xMargin * frameWidth
-        let totalWidth = frameWidth + 2 * margin
+        let margin = xMargin * frame.width
+        let totalWidth = frame.width + 2 * margin
         let q = (posX + margin) / totalWidth
         let r = CGFloat(Int(q)) * totalWidth
         let pos = posX - r
-
-        let width = barW * frameWidth
-        let rect = CGRect(x: pos - width * 0.5 , y: 0, width: width, height: frameHeight)
+        let width = barW * frame.width
+        let rect = CGRect(x: pos - width * 0.5 , y: 0, width: width, height: frame.height)
         color.setFill()
         UIRectFill(rect)
         // The part of the rect out should be visible on the other side of the screen
-        if pos + width * 0.5 > frameWidth + margin {
-            let remainW = pos + width * 0.5 - ( frameWidth + margin )
-            let remainRect = CGRect(x: -margin, y: 0, width: remainW, height: frameHeight)
+        if pos + width * 0.5 > frame.width + margin {
+            let remainW = pos + width * 0.5 - ( frame.width + margin )
+            let remainRect = CGRect(x: -margin, y: 0, width: remainW, height: frame.height)
             UIRectFill(remainRect)
         } else if pos - width * 0.5 < -margin {
             let remainW =  -margin - ( pos - width * 0.5 )
-            let remainRect = CGRect(x: frameWidth + margin - remainW, y: 0, width: remainW, height: frameHeight)
+            let remainRect = CGRect(x: frame.width + margin - remainW, y: 0, width: remainW, height: frame.height)
             UIRectFill(remainRect)
         }
     }
