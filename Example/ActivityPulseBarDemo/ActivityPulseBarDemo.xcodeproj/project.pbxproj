@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4DB581452DFB05C60052AE04 /* ActivityPulseBar in Frameworks */ = {isa = PBXBuildFile; productRef = 4DB581442DFB05C60052AE04 /* ActivityPulseBar */; };
 		4DB581482DFB08A30052AE04 /* ActivityPulseBar in Frameworks */ = {isa = PBXBuildFile; productRef = 4DB581472DFB08A30052AE04 /* ActivityPulseBar */; };
+		4DB5814B2DFB08EE0052AE04 /* ActivityPulseBar in Frameworks */ = {isa = PBXBuildFile; productRef = 4DB5814A2DFB08EE0052AE04 /* ActivityPulseBar */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DB5814B2DFB08EE0052AE04 /* ActivityPulseBar in Frameworks */,
 				4DB581452DFB05C60052AE04 /* ActivityPulseBar in Frameworks */,
 				4DB581482DFB08A30052AE04 /* ActivityPulseBar in Frameworks */,
 			);
@@ -113,7 +115,7 @@
 			mainGroup = 4DD860342DF0578000364AE1;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				4DB581462DFB08A30052AE04 /* XCRemoteSwiftPackageReference "ActivityPulseBar" */,
+				4DB581492DFB08EE0052AE04 /* XCRemoteSwiftPackageReference "ActivityPulseBar" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4DD8603E2DF0578000364AE1 /* Products */;
@@ -355,6 +357,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		4DB581492DFB08EE0052AE04 /* XCRemoteSwiftPackageReference "ActivityPulseBar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://git@github.com/BaptisteSansierra/ActivityPulseBar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -365,6 +375,11 @@
 		4DB581472DFB08A30052AE04 /* ActivityPulseBar */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 4DB581462DFB08A30052AE04 /* XCRemoteSwiftPackageReference "ActivityPulseBar" */;
+			productName = ActivityPulseBar;
+		};
+		4DB5814A2DFB08EE0052AE04 /* ActivityPulseBar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DB581492DFB08EE0052AE04 /* XCRemoteSwiftPackageReference "ActivityPulseBar" */;
 			productName = ActivityPulseBar;
 		};
 /* End XCSwiftPackageProductDependency section */
